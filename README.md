@@ -76,6 +76,7 @@ Desde este punto, su Git Bash se comportará esencialmente como un shell Unix Zs
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
 Si ejecutastes el comando y te sale asi felicidades ya acabas de instalar oh-my-zsh en tu maquina 
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vDzT7ynT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/tmv66ab3fvka73a0uyms.png" width="600px" />
@@ -90,7 +91,7 @@ Aora ya tenemos instalado oh-my-zsh vamos a mi parte favorita instalar los compl
 
 ##  Instalando zsh-autosuggestions y zsh-syntax-highlighting 🤟
 
-Primero para poder instalar nuestros plugins  nos dirigimos hacia la carperta origen oh-my-zsh ,esta se encuentra en nuestro directorio c:\Users\NombreDeTuMaquina, estando hay accedemos a la carpeta **.oh-my-zsh ** vamos a la siguiente caperta **custom**  despues a **plugins** ejemplo del directorio C:\Users\NombreDeTuMaquina\.oh-my-zsh\custom\plugins , 
+Primero para poder instalar nuestros plugins  nos dirigimos hacia la carperta origen oh-my-zsh ,esta se encuentra en nuestro directorio c:\Users\NombreDeTuMaquina, estando hay accedemos a la carpeta **.oh-my-zsh**  vamos a la siguiente caperta **custom**  despues a **plugins** ejemplo del directorio C:\Users\NombreDeTuMaquina\.oh-my-zsh\custom\plugins , 
 
 <img src="https://i.postimg.cc/g0D0RSkV/Screenshot-7.png" />
 
@@ -121,7 +122,7 @@ Ya nuestro plugins deven estar funcionando perfectamente el autosuggestions func
 
 # Instalando temas
 
-Para la instalacion de temas es muy sencillo vamos al siguiente enlase [Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) hay un sin fin de temas escojes el que te guste  copia el nombre por ejemplo el que viene como por defecto es ** robbyrussell** escoje el que guste solo copias el nombre aora  para instalarlo te diriges a tu archivo ` ~/.zshrc`  donde anteriormente copiamos nuestro codigos de zsh-autosuggestions & zsh-syntax-highlighting busca la parte donde dice `ZSH_THEME=""` solo borra donde el tema que tenga hay copia el que te guste guardas los cambios reinia tu terminal y listo
+Para la instalacion de temas es muy sencillo vamos al siguiente enlase [Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) hay un sin fin de temas escojes el que te guste  copia el nombre por ejemplo el que viene como por defecto es **robbyrussell** escoje el que guste solo copias el nombre aora  para instalarlo te diriges a tu archivo ` ~/.zshrc`  donde anteriormente copiamos nuestro codigos de zsh-autosuggestions & zsh-syntax-highlighting busca la parte donde dice `ZSH_THEME=""` solo borra donde el tema que tenga hay copia el que te guste guardas los cambios reinia tu terminal y listo
 
 <img src="https://i.postimg.cc/QdksTZRY/Screenshot-17.png"  />
 
