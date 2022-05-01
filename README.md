@@ -49,7 +49,7 @@ zsh-newuser-install -f
 
 Configure Zsh como shell predeterminado agregando lo siguiente a su ~/.bashrc ,
 
-NOTA: para acceder al archivo ~/.bashrc nos dirigimos hacia la  carperta donde tenemos instalado nuestro Git bash si anteriormente ya accedimos a ella cuando tuvimos que pegar aquellas carpetas para instalar nuestro zsh , cuanto estemos dentro de la carpeta vamos hacia la carpeta  **etc**  luego buscamos nuestro archivo  **bash.bashrc** 
+NOTA: para acceder al archivo ~/.bashrc nos dirigimos hacia la  carperta donde tenemos instalado nuestro Git bash si anteriormente ya accedimos a ella cuando tuvimos que pegar aquellas carpetas para instalar nuestro zsh dentro de ella vamos hacia la carpeta  **etc**  luego buscamos nuestro archivo  **bash.bashrc** 
 
 <img src="https://i.postimg.cc/8P3CDfjS/Screenshot-3.png"  />
 
@@ -63,11 +63,12 @@ fi
 Te quedara asi en el editor guardas tu cambios y listo 
 
 <img src="https://i.postimg.cc/zBy4GwJF/Screenshot-15.png"  />
+
 # Instalando oh-my-zsh
 
 Antes de instalar oh-my-zsh vamos haver un poco que es ? 
 
-	Es un framework mantenido por la comunidad de código abierto que permite manejar fácilmente la configuración del terminal ZSH, es altamente personalizable y un gran complemento para usuarios que trabajan constantemente en el terminal ofreciéndoles un ambiente agradable a la vista, con muchas ayudas visuales, facilidad de ubicación y optimización de tareas gracias al la gama de funcionalidades que ofrece la librería de complementos.	
+Es un framework mantenido por la comunidad de código abierto que permite manejar fácilmente la configuración del terminal ZSH, es altamente personalizable y un gran complemento para usuarios que trabajan constantemente en el terminal ofreciéndoles un ambiente agradable a la vista, con muchas ayudas visuales, facilidad de ubicación y optimización de tareas gracias al la gama de funcionalidades que ofrece la librería de complementos.	
 
 
 Desde este punto, su Git Bash se comportará esencialmente como un shell Unix Zsh. Para instalar oh-my-zsh, ejecute el comando habitual que ejecutaría en cualquier shell Zsh:
@@ -75,3 +76,63 @@ Desde este punto, su Git Bash se comportará esencialmente como un shell Unix Zs
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+Si ejecutastes el comando y te sale asi felicidades ya acabas de instalar oh-my-zsh en tu maquina 
+
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vDzT7ynT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/tmv66ab3fvka73a0uyms.png" width="600px" />
+
+
+------------
+
+
+# Instalación de complementos y temas 😁 💻🎉
+
+Aora ya tenemos instalado oh-my-zsh vamos a mi parte favorita instalar los complementos y temas unos de los plugins mas populares que nos trae este maravilloso framework es el terminación automática de comandos, directorios, opciones y argumentos de  corrección de ortográfica que estos nos va ayudar a simplificar mucho nuestro trabajo para 
+
+##  Instalando zsh-autosuggestions y zsh-syntax-highlighting 🤟
+
+Primero para poder instalar nuestros plugins  nos dirigimos hacia la carperta origen oh-my-zsh ,esta se encuentra en nuestro directorio c:\Users\NombreDeTuMaquina, estando hay accedemos a la carpeta **.oh-my-zsh ** vamos a la siguiente caperta **custom**  despues a **plugins** ejemplo del directorio C:\Users\NombreDeTuMaquina\.oh-my-zsh\custom\plugins , 
+
+<img src="https://i.postimg.cc/g0D0RSkV/Screenshot-7.png" />
+
+Abrimos el terminal dentro de la carpeta plugins y instalamos los siguientes repositorios 
+
+- Descargando zsh-autosuggestions
+
+```shell
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+- Descargar zsh-syntax-highlighting
+
+```shell
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+Ya instalado nuestros plugins aora tenemos que activarlos  para hacer eso vamos al archivo .zshrc que esta en  C:\Users\NombreDeTuMaquina 
+
+<img src="https://i.postimg.cc/XNykKddZ/Screenshot-10.png" width="600px"  />
+
+Lo abrimos con nuestro editos preferido  nos dirigimos donde dice **plugins=( git )** posiblemente este en la linea 80 estando en en copiamos los siguiente ` sh-autosuggestions zsh-syntax-highlighting`  guardamos los cambios en nuestro editor lo cerramos reiniciamos nuestro terminal y listo 
+
+<img src="https://i.postimg.cc/Sxwy90hY/Screenshot-14.png"  />
+
+Ya nuestro plugins deven estar funcionando perfectamente el autosuggestions funciona cada ves que usamos un linea de comando por ejemplo `git init` y ejecutamos el inmediantemente lo guarda en su historial y ya la proxima vez que uses ese comando ya el te va aparecer automaticamente , y el  zsh-syntax-highlighting  el te va a corregir si escrives una linea de comando errada el aparece en rojo si esta correcta la linea de comando el aparece en verde
+
+<img src="https://i.postimg.cc/SxzB4fxL/ejemplo2.gif"  />
+
+# Instalando temas
+
+Para la instalacion de temas es muy sencillo vamos al siguiente enlase [Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) hay un sin fin de temas escojes el que te guste  copia el nombre por ejemplo el que viene como por defecto es ** robbyrussell** escoje el que guste solo copias el nombre aora  para instalarlo te diriges a tu archivo ` ~/.zshrc`  donde anteriormente copiamos nuestro codigos de zsh-autosuggestions & zsh-syntax-highlighting busca la parte donde dice `ZSH_THEME=""` solo borra donde el tema que tenga hay copia el que te guste guardas los cambios reinia tu terminal y listo
+
+<img src="https://i.postimg.cc/QdksTZRY/Screenshot-17.png"  />
+
+------------
+
+
+------------
+
+# Referencias
+
+- https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+- https://github.com/zsh-users/zsh-autosuggestions
+- https://github.com/zsh-users/zsh-syntax-highlighting
+- https://github.com/ohmyzsh/ohmyzsh 
