@@ -24,4 +24,4 @@ Un poco  mal es que ese terminal alternativo solo lo conseguimos de manera fluen
 
 1.  Primero Descargue el paquete zsh de MSYS2 más reciente del repositorio de paquetes de  [MSYS2](https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64) . El archivo tendrá un nombre similar a zsh-5.8-5-x86_64.pkg.tar.zst. 
 2. Instale un extractor que pueda abrir archivos ZST como [PeaZip](https://peazip.github.io/) o   [7-Zip Beta](https://www.7-zip.org/).
-3. O puedes intalarlo directo [zsh-5.8-5-x86_64](https://github.com/Estebanjgg/Zsh-y-oh-my-zsh-en-Windows-Git-Bash-sin-instalar-windows-subsistema-linux-/files/8598125/zsh-5.8-5-x86_64.pkg.zip)
+3. O puedes Descargalo directo [zsh-5.8-5-x86_64](https://github.com/Estebanjgg/Zsh-y-oh-my-zsh-en-Windows-Git-Bash-sin-instalar-windows-subsistema-linux-/files/8598125/zsh-5.8-5-x86_64.pkg.zip)
