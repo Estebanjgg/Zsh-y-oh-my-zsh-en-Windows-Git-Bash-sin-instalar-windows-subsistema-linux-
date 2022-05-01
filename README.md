@@ -22,4 +22,4 @@ Un poco  mal es que ese terminal alternativo solo lo conseguimos de manera fluen
 
 # Instalar Zsh en Git Bash
 
-1.  Primero Descargue el paquete zsh de MSYS2 más reciente del repositorio de paquetes de  [MSYS2](http://https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64 "MSYS2")
+1.  Primero Descargue el paquete zsh de MSYS2 más reciente del repositorio de paquetes de  [MSYS2](https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64)
