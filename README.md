@@ -117,11 +117,11 @@ Ya instalado nuestros plugins aora tenemos que activarlos  para hacer eso vamos 
 
 <img src="https://i.postimg.cc/XNykKddZ/Screenshot-10.png" width="600px"  />
 
-Lo abrimos con nuestro editos preferido  nos dirigimos donde dice **plugins=( git )** posiblemente este en la linea 80 estando en en copiamos los siguiente ` sh-autosuggestions zsh-syntax-highlighting`  guardamos los cambios en nuestro editor lo cerramos reiniciamos nuestro terminal y listo 
+Lo abrimos con nuestro editos preferido  nos dirigimos donde dice **plugins=( git )** posiblemente este en la linea 80 estando en el copiamos lo siguiente ` sh-autosuggestions zsh-syntax-highlighting`  guardamos los cambios en nuestro editor lo cerramos reiniciamos nuestro terminal y listo 
 
 <img src="https://i.postimg.cc/Sxwy90hY/Screenshot-14.png"  />
 
-Ya nuestro plugins deven estar funcionando perfectamente el autosuggestions funciona cada ves que usamos un linea de comando por ejemplo `git init` y ejecutamos el inmediantemente lo guarda en su historial y ya la proxima vez que uses ese comando ya el te va aparecer automaticamente , y el  zsh-syntax-highlighting  el te va a corregir si escrives una linea de comando errada el aparece en rojo si esta correcta la linea de comando el aparece en verde
+Ya nuestro plugins deven estar funcionando perfectamente el autosuggestions funciona cada ves que usamos una linea de comando por ejemplo `git init` y ejecutamos el inmediantemente lo guarda en su historial y ya la proxima vez que uses ese comando ya el te va aparecer automaticamente , y el  zsh-syntax-highlighting  el te va a corregir si escrives una linea de comando errada el aparece en rojo si esta correcta la linea de comando el aparece en verde
 
 <img src="https://i.postimg.cc/SxzB4fxL/ejemplo2.gif"  />
 
