@@ -97,6 +97,7 @@ Primero para poder instalar nuestros plugins  nos dirigimos hacia la carperta or
 
 Abrimos el terminal dentro de la carpeta plugins y instalamos los siguientes repositorios 
 
+
 - Descargando zsh-autosuggestions
 
 ```shell
@@ -107,6 +108,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 ```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
+despues de instalarlo te va a quedar como se ve en la imagen
+
+<img src="https://i.postimg.cc/SxxFJ1pc/Screenshot-18.png" width="500px" />
+
 
 Ya instalado nuestros plugins aora tenemos que activarlos  para hacer eso vamos al archivo .zshrc que esta en  C:\Users\NombreDeTuMaquina 
 
