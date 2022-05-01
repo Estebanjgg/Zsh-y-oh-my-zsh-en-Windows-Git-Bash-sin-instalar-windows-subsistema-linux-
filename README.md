@@ -18,7 +18,7 @@ Algunas de las ventajas que ofrece ZSH:
 - Corrección ortográfica.
 - Altamente personalizable.
 
-Un poco  mal es que ese terminal alternativo solo lo conseguimos de manera fluente en sistemas operativos como macOS y Linux , tiene maneras  de poder instalarlo en windows Por supuesto, podría configurar el shell como quiero bajo WSL, pero WSL no siempre funciona bien con las aplicaciones y herramientas nativas de Windows. Para remediar esto, investigué cómo podía configurar Zsh para que se ejecutara en lugar de Bash en Git Bash. 
+Aunque ese terminal alternativo solo lo conseguimos de manera nativa en ubuntu y adoptado por macOS , tiene maneras  de poder instalarlo en windows Por supuesto, podría configurar el shell como quiero bajo WSL, pero WSL no siempre funciona bien con las aplicaciones y herramientas nativas de Windows. Para remediar esto, investigué cómo podía configurar Zsh para que se ejecutara en lugar de Bash en Git Bash. 
 
 # Instalar Zsh en Git Bash
 
@@ -49,7 +49,7 @@ zsh-newuser-install -f
 
 Configure Zsh como shell predeterminado agregando lo siguiente a su ~/.bashrc ,
 
-NOTA: para acceder al archivo ~/.bashrc nos dirigimos hacia la  carperta donde tenemos instalado nuestro Git bash si anteriormente ya acedimos a ella cuando tuvimos que pegar aquellas carpetas para instalar nuestro zsh dentro de ella vamos hacia la carpeta  **etc**  luego buscamos nuestro archivo  **bash.bashrc** 
+NOTA: para acceder al archivo ~/.bashrc nos dirigimos hacia la  carperta donde tenemos instalado nuestro Git bash si anteriormente ya accedimos a ella cuando tuvimos que pegar aquellas carpetas para instalar nuestro zsh , cuanto estemos dentro de la carpeta vamos hacia la carpeta  **etc**  luego buscamos nuestro archivo  **bash.bashrc** 
 
 <img src="https://i.postimg.cc/8P3CDfjS/Screenshot-3.png"  />
 
@@ -63,3 +63,15 @@ fi
 Te quedara asi en el editor guardas tu cambios y listo 
 
 <img src="https://i.postimg.cc/zBy4GwJF/Screenshot-15.png"  />
+# Instalando oh-my-zsh
+
+Antes de instalar oh-my-zsh vamos haver un poco que es ? 
+
+	Es un framework mantenido por la comunidad de código abierto que permite manejar fácilmente la configuración del terminal ZSH, es altamente personalizable y un gran complemento para usuarios que trabajan constantemente en el terminal ofreciéndoles un ambiente agradable a la vista, con muchas ayudas visuales, facilidad de ubicación y optimización de tareas gracias al la gama de funcionalidades que ofrece la librería de complementos.	
+
+
+Desde este punto, su Git Bash se comportará esencialmente como un shell Unix Zsh. Para instalar oh-my-zsh, ejecute el comando habitual que ejecutaría en cualquier shell Zsh:
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
