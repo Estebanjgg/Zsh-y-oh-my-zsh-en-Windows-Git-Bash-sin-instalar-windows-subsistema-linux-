@@ -25,3 +25,41 @@ Un poco  mal es que ese terminal alternativo solo lo conseguimos de manera fluen
 1.  Primero Descargue el paquete zsh de MSYS2 más reciente del repositorio de paquetes de  [MSYS2](https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64) . El archivo tendrá un nombre similar a zsh-5.8-5-x86_64.pkg.tar.zst. 
 2. Instale un extractor que pueda abrir archivos ZST como [PeaZip](https://peazip.github.io/) o   [7-Zip Beta](https://www.7-zip.org/).
 3. O puedes Descargalo directo [zsh-5.8-5-x86_64](https://github.com/Estebanjgg/Zsh-y-oh-my-zsh-en-Windows-Git-Bash-sin-instalar-windows-subsistema-linux-/files/8598125/zsh-5.8-5-x86_64.pkg.zip)
+
+4. Extraiga el contenido del archivo (que debe incluir carpetas etc y usr ) en su directorio de instalación de Git Bash. Es probable que esté bajo C:\Program Files\Git. Combine el contenido de la carpeta si se le solicita (no se deben anular archivos).
+
+
+5. Abre Git Bash y ejecuta:
+`zsh`
+
+6. IMPORTANTE: configure la finalización de pestañas y el historial en el asistente de primer uso de Zsh. Si por alguna razón no aparece, o lo saltas, vuelve a ejecutarlo:
+
+```shell
+#copiar todo junto y pegar en tu terminal si el codigo anterior (zsh) no te sirvio 
+
+autoload -U zsh-newuser-install
+zsh-newuser-install -f
+```
+<img src="https://i.postimg.cc/nztZrvty/Screenshot-2.png" width="400px" />
+
+- Para configurar el historial, presione 1, cambie los valores si lo desea presionando 1-3 y luego presione 0.
+- Para configurar la finalización, presione 2 para “Use the new completion system”, y luego presione 0.
+- Pulse 0 para guardar la configuración.
+<img src="https://i.postimg.cc/HLSMws6s/como-configurar-zsh.gif"  />
+
+Configure Zsh como shell predeterminado agregando lo siguiente a su ~/.bashrc ,
+
+NOTA: para acceder al archivo ~/.bashrc nos dirigimos hacia la  carperta donde tenemos instalado nuestro Git bash si anteriormente ya acedimos a ella cuando tuvimos que pegar aquellas carpetas para instalar nuestro zsh dentro de ella vamos hacia la carpeta  **etc**  luego buscamos nuestro archivo  **bash.bashrc** 
+
+<img src="https://i.postimg.cc/8P3CDfjS/Screenshot-3.png"  />
+
+Abrimos el archivos con nuestro editos de texto favorito copiamos y pegamos lo siguiente 
+
+```shell
+if [ -t 1 ]; then
+  exec zsh
+fi
+```
+Te quedara asi en el editor guardas tu cambios y listo 
+
+<img src="https://i.postimg.cc/zBy4GwJF/Screenshot-15.png"  />
