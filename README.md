@@ -117,7 +117,7 @@ Ya instalado nuestros plugins aora tenemos que activarlos  para hacer eso vamos 
 
 <img src="https://i.postimg.cc/XNykKddZ/Screenshot-10.png" width="600px"  />
 
-Lo abrimos con nuestro editos preferido  nos dirigimos donde dice **plugins=( git )** posiblemente este en la linea 80 estando en el copiamos lo siguiente ` sh-autosuggestions zsh-syntax-highlighting`  guardamos los cambios en nuestro editor lo cerramos reiniciamos nuestro terminal y listo 
+Lo abrimos con nuestro editos preferido  nos dirigimos donde dice **plugins=( git )** posiblemente este en la linea 80 estando en el copiamos lo siguiente ` zsh-autosuggestions zsh-syntax-highlighting`  guardamos los cambios en nuestro editor lo cerramos reiniciamos nuestro terminal y listo 
 
 <img src="https://i.postimg.cc/Sxwy90hY/Screenshot-14.png"  />
 
